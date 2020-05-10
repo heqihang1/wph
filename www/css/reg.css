@@ -1,0 +1,197 @@
+@charset "utf-8";
+.header-inner{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.c-logo-link{
+    float: left;
+    width: 140px;
+    height: 100px;
+    background: url(../images/sprite2.png) no-repeat;
+    background-position: -300px  -57px;
+    background-color: #ffffff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0;
+}
+.header-inner>a{
+    display: block;
+}
+.c-service{
+    float: right;
+    width: 304px;
+    height: 100px;
+    background: url(../images/sprite2.png) no-repeat;
+    background-position: -1px -2px;
+}
+.c-body{
+    width: 100%;
+    height: 650px;
+    background: url(../images/reg_bj.jpg) no-repeat;
+    background-position: top center;
+}
+.c_content{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 20px;
+    min-height: 550px;
+    width: 1000px;
+}
+.c_content_r{
+    float: right;
+    width: 360px;
+    height: 550px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.c_header{
+    width: 300px;
+    height: 50px;
+    padding: 0 30px;
+    border: 1px solid #ccc;
+}
+.title_l h4{
+    font-size: 18px;
+    line-height: 50px;
+    color: #666;
+}
+.reg_r span{
+    font-size: 14px;
+    line-height: 50px;
+    color: #333;
+}
+.reg_r span a{
+    color: #f10180;
+}
+.register_body{
+    width: 300px;
+    min-height: 425px;
+    padding: 30px;
+}
+.control_group{
+    width: 300px;
+    height: 72px;
+}
+.form_item_group{
+    width: 302px;
+    min-height: 46px;
+    position: relative;
+}
+.form_item_group>input{
+    width: 250px;
+    height: 32px;
+    padding:6px 10px 6px 40px;
+    border: 1px solid #b2b2b2;
+    color: #333;
+    border-radius: 4px;
+}
+.form_item_group>span{
+    font-size: 18px;
+    line-height: 46px;
+    position: absolute;
+    right: 10px;
+    top: -1px;
+}
+.form_item_mobile>div>span{
+    font-size: 18px;
+    line-height: 46px;
+    position: absolute;
+    top: -1px;
+    left: 130px;
+}
+.form_item_group::-webkit-input-placeholder{
+    color: #999999;
+}
+.form_hint{
+    height: 19px;
+    margin: 2px 0 5px;
+}
+
+.form_item_mobile>div>input{
+    padding:6px 10px 6px 40px;
+    border: 1px solid #b2b2b2;
+    color: #333;
+    border-radius: 4px;
+    width: 106px;
+    height: 32px;
+    margin-right: 10px;
+    float: left;
+}
+.form_item_mobile>div>a{
+    display: block;
+    float: left;
+    width: 106px;
+    height: 44px;
+    border: 1px solid #d0d0d0;
+    color: #999;
+    background: #d0d0d0;
+    cursor: not-allowed;
+    padding: 0 12px;
+    font-size: 14px;
+    line-height: 44px;
+    border-radius: 4px;
+    text-align: center;
+}
+.ui_form_group{
+    width: 300px;
+    min-height: 56px;
+}
+span>input[type="checkbox"]{
+    color: #fff;
+    width: 19px;
+    height: 16px;
+}
+.ui_group>span>label{
+    vertical-align: middle;
+    font-size: 12px;
+    display: inline-block;
+    width: 276px;
+    line-height: 1.5;
+}
+.ui_group>span>label>a{
+    color:#6694D1;
+}
+.form_btn>a{
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    width: 298px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+    background-color: #f10180;
+    color: #fff;
+    border: 1px solid #f10180;
+    border-radius: 4px;
+}
+
+/* 背景图标 */
+.gr_bj{
+    display: block;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    position: absolute;
+    top: 13px;
+    left: 11px;
+}
+.gr_sj_bj{
+    background: url(../images/sprite2.png) no-repeat -456px -221px;
+}
+.gr_yzm_bj{
+    background: url(../images/sprite2.png) no-repeat -480px -221px;
+}
+.gr_mm_bj{
+    background: url(../images/sprite2.png) no-repeat -528px -221px;
+}
+/* footer */
+footer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    color: #ccc;
+}
