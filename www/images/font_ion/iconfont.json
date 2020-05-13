@@ -62,6 +62,20 @@
       "unicode_decimal": 58910
     },
     {
+      "icon_id": "584011",
+      "name": "感叹号",
+      "font_class": "iconfontgantanhao2",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "736511",
+      "name": "问号 (1)",
+      "font_class": "wenhao1",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
       "icon_id": "750910",
       "name": "男装",
       "font_class": "nanzhuang",
@@ -160,11 +174,18 @@
       "unicode_decimal": 58888
     },
     {
+      "icon_id": "1526320",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
       "icon_id": "2087560",
       "name": "生活",
       "font_class": "shenghuo",
-      "unicode": "e605",
-      "unicode_decimal": 58885
+      "unicode": "e606",
+      "unicode_decimal": 58886
     },
     {
       "icon_id": "2325938",
@@ -184,8 +205,8 @@
       "icon_id": "4166140",
       "name": "朋友",
       "font_class": "pengyou",
-      "unicode": "e61a",
-      "unicode_decimal": 58906
+      "unicode": "e61b",
+      "unicode_decimal": 58907
     },
     {
       "icon_id": "4349838",
@@ -270,6 +291,13 @@
       "font_class": "huaban",
       "unicode": "e60d",
       "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8843671",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e648",
+      "unicode_decimal": 58952
     },
     {
       "icon_id": "9454431",

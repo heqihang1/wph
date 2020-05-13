@@ -28,7 +28,6 @@ $imgSize:420px;
 }
 .slide-mid{
     @extend .relative
-    
 }
 .zoomPad{
     @extend .relative;
@@ -67,16 +66,16 @@ $imgSize:420px;
     height: 64px;
     overflow: hidden;
     ul{
+        display: flex;
+        height: 64px;
+        justify-content: center;
         li{
-            float: left;
-            a{
-                display: block;
-                width: 62px;
-                height: 62px;
-                border: 1px solid #fff;
+            a{ display: block;
                 margin-right: 7px;
                 img{
-                    @include images()
+                    width: 62px;
+                    height: 62px;
+                    border: 1px solid #ccc;
                 }
             }
         }
@@ -163,7 +162,7 @@ $imgSize:420px;
 }
 .flag-box{
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 18px;
     .flag-img{
         float: left;
         margin-right: 16px;
@@ -184,7 +183,7 @@ $imgSize:420px;
     a{  
         display: inline-block;
         color: #007cff;
-        height: 18px;
+        height: 24px;
 
         
     }
@@ -220,7 +219,14 @@ $imgSize:420px;
         color: #999;
         max-height: 85px;
         overflow: hidden;
+        
     }
+
+}
+.b-sp{
+    color: #ff1188;
+    font-size: 12px;
+    margin-right: 2px;
 }
 .price-box{
     background: #f9f9f9;
@@ -502,6 +508,7 @@ $imgSize:420px;
     .hig-tit-pic{
         padding: 0;
         border: 2px solid #f43499;
+        text-align: center;
     }
 }
 
@@ -583,6 +590,7 @@ $imgSize:420px;
     margin-top: 20px;
 }
 .J-button-box{
+   
     @extend .relative;
     font-size: 18px;
     height: 46px;
@@ -592,6 +600,7 @@ $imgSize:420px;
         color: #fff;
         left: 36px;
         top: 10px;
+        cursor: pointer;
         .iconfont{
                  display: inline-block;
                  margin-right: 6px;

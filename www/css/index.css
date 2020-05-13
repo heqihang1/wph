@@ -6,15 +6,87 @@
     background-size: 1920px 439px;
     margin-bottom: 10px;
 }
-.banner-img{
-    width: 1146px;
-    height: 430px;
+.banner-box{
     position: relative;
 }
+.banner-img{
+    width: 1146px;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    padding: 12px 12px 0 12px;background: #fff;
+}
+.banner-img:hover .jiantou_l{
+    transition: .5s;
+    transform: translate(46px);
+}
+.banner-img:hover .jiantou_r{
+    transition: .5s;
+    transform: translate(-46px);
+}
 .banner-img>img{
+    
+    width: 1146px;
+    height: 400px;
     position: absolute;
     left: 50%;
     margin-left: -573px;
+}
+.yandian{
+    width: 1146px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -573px;
+    display: flex;
+    justify-content: center;
+}
+.yandian li{
+    width: 229px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.yandian li:nth-of-type(2){
+    border-bottom: #f10180 3px solid;
+}
+.yandian li a{
+    color: #333;
+}
+.lifjx::after{
+    content: "|";
+    font-family: tohama;
+    font-size: 10px;
+    margin-left: 10px;
+    color: #e8e8e8;
+    position: absolute;
+    right: 0;
+}
+span[class^="jiantou"]{
+    display: block;
+    position: absolute;
+    height: 66px;
+    width: 33px;
+    text-align: center;
+    line-height: 66px;
+    color: #fff;
+    background: rgba(0,0,0,.2);
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.jiantou_l{
+    left: -34px;
+    bottom: 216px;
+}
+.jiantou_r{
+    bottom: 216px;
+    right: -34px;
 }
 /* 优惠 */
 .operation_content{

@@ -203,6 +203,7 @@
     font-size: 14px;
 }
 
+
 /* 标题导航 */
 .header-inner{
     height: 44px;
@@ -277,8 +278,8 @@
     width: 193px;
     position: absolute;
     background: #FA2A83;
-    top: 45px;
-    left: 15px;
+    top: 43px;
+    left: 0px;
     z-index: 99;
     display: none;
     
@@ -286,9 +287,67 @@
 .kinds_box>.kin_box_ul>li>a{
     color: #fff;
 }
+.classify:hover .kinds_box{
+    display: block;
+}
 .kin_box_ul{
     position: relative;
 }
+.lei-l{
+    float: left;
+    height: 444px;
+    width:600px;
+    padding: 28px 0 0 50px;
+    overflow: auto;
+}
+.lei_r{
+    float: left;
+    padding: 24px 0 0 22px;
+    height: 448px;
+    width: 304px;
+    background: #ccc;
+}
+.lei_r h5{
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+.pptj{
+    width: 265px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lei_nav{
+    height: 56px;
+    line-height: 12px;
+}
+.lei_nav dt{
+    float: left;
+    width: 100px;
+    font-size: 12px;
+    font-weight: 300px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.lei_nav dt .iconfont{
+    text-align: right;
+    font-size: 12px;
+    color: #333;
+    float: right;
+}
+.lei_nav dd{
+    float: left;
+    margin-right: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #999;
+}
+.lei_nav dd:hover{
+    color: #f10180;
+}
+
 .kinds_box>.kin_box_ul>li>a{
     display: block;
     width: 163px;
@@ -310,6 +369,10 @@
     left: 193px;
     background-color: #fff;
     /* opacity: .9; */
+    display: none;
+}
+.box_li:hover .kinds_content{
+    display: block;
 }
 
 

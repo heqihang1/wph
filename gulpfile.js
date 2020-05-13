@@ -8,41 +8,45 @@ let connect = require("gulp-connect")
 g.task("watchadd",async()=>{
     g.watch("./www/*.html",async()=>{
         g.src("./www/*.html")
-        .pipe(htmlmin({
-            collapseWhitespace: true,
-            removeComments: true,
-        }))
-        .pipe(g.dest("../dabaicai/wph"))
+        // .pipe(htmlmin({
+        //     collapseWhitespace: true,
+        //     removeComments: true,
+        // }))
+        .pipe(g.dest("d:\\phpStudy\\www\\wph"))
 
     })
     g.watch("./www/css/*.css",async()=>{
         g.src(["./www/css/*.css","!./www/css/*.scss"])
         .pipe(csshtml())
-        .pipe(g.dest("../dabaicai/wph/css"))
+        .pipe(g.dest("d:\\phpStudy\\www\\wph\\css"))
     })
     g.watch("./www/css/*.scss",async()=>{
         g.src("./www/css/*.scss")
         .pipe(sass())
         .pipe(csshtml())
-        .pipe(g.dest("../dabaicai/wph/css"))
+        .pipe(g.dest("d:\\phpStudy\\www\\wph\\css"))
     })
 
     g.watch("./www/js/*.js",async()=>{
         g.src("./www/js/*.js")
         .pipe(babel({
             presets: ['@babel/env']
-        }))
-        .pipe(uglify())
-        .pipe(g.dest("../dabaicai/wph/js"))
+        })).pipe(g.dest("d:\\phpStudy\\www\\wph\\js"))
+        // .pipe(uglify())
+        
     })
+    g.watch("./www/php/**/*",async()=>{
+        g.src("./www/php/**/**").pipe(g.dest("d:\\phpStudy\\www\\wph\\php"))
+    })
+    
     
 })
 g.task("imagemin",async()=>{
-        g.src("./www/images/**/*").pipe(g.dest("../dabaicai/wph/images"))
+        g.src("./www/images/**/*").pipe(g.dest("d:\\phpStudy\\www\\wph\\images"))
 })
 g.task("server",function(){
     connect.server({
-        root:"../dabaicai//wph",
+        root:"d:\\phpStudy\\www\\wph",
         livereload: true
     })
 })

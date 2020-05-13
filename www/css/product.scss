@@ -7,7 +7,6 @@
     height: 100%;
 }
 
-
 .ban-wrap{
     width: 1170px;
     margin: 30px auto;
@@ -120,6 +119,7 @@
     }
 }
 .f-choice{
+    position: relative;
     display: inline-block;
     padding: 0 27px 12px 0;
     li{
@@ -130,6 +130,23 @@
             font-size: 12px;
         }
     }
+}
+.min-ma{
+    min-height: 60px;
+}
+.mage{
+    height: 60px;
+}
+.jzgd{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    right: 0;
+    font-size: 12px;
+    color: #333;
+
 }
 .hig-po{
    
@@ -323,7 +340,7 @@
     white-space: nowrap;
     display: inline-block;
     b{
-        font-size: 24px;
+        font-size: 20px;
         margin-left: 2px;
     }
 }

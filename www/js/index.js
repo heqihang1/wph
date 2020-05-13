@@ -25,7 +25,7 @@ window.onscroll = function () {
             position:static;
             margin:0 auto;
             width:1170px;
-        `;
+        `; 
     };
     if(gdt>=1200){
         leftNav.style.display="block";
@@ -33,4 +33,18 @@ window.onscroll = function () {
         leftNav.style.display="none";
     };
 };
-
+// let ho = document.getElementById("hd")
+// ho.onmouseover = function(){
+    
+//     let bb = document.getElementById("task")
+//     bb.style.cssText = `
+//         display: block;
+//     `
+// }
+// ho.onmouseout = function(){
+//     let bb = document.getElementById("task")
+//     bb.style.cssText = `
+//     display: none;
+// `
+// }
+    
