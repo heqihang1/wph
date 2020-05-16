@@ -578,6 +578,9 @@ span[class^="jiantou"]{
     white-space: normal;
 
 }
+.left_nav .acolor:hover span{
+    color: #f10180;
+}
 .left_nav a>span{
     float: left;
 }

@@ -25,8 +25,8 @@
                 <div class="lt-hd float_right">
                     <div class="hd-ul-us">
                         <div class="user-name float_left">
-                            <span>登录</span>
-                            <a href="" class="register">注册</a>
+                            <span class="logingo">登录</span>
+                            <a href="./login.html" class="register">注册</a>
                             <a href="">订单管理</a>
                         </div>
                         <span class="u-split-line">|</span>
@@ -71,6 +71,18 @@
             </div>
         </div>
     </header>
+    <!-- 登录与注册 -->
+    <div id="logins">
+       <div class="box">
+            <h4>您还没有登录，请先登录</h4>
+            <div>
+                <a href="./reg.html">注册</a>
+            </div>
+            <div>
+                <a href="./login.html">登录</a>
+            </div>
+       </div>
+    </div>
     <!-- 购物内容 -->
     <div class="g-bd clear_fix">
         <div class="g-row g-tab-01">
@@ -87,7 +99,7 @@
                         <p>快去抢购心仪商品吧~</p>
                     </div>
                     <div class="cart-tips-actions">
-                        <a href="" class="cart-text">立即抢购 </a>
+                        <a href="./Productlist.html" class="cart-text">立即抢购 </a>
                         <a href="" class="cart-text">查看订单</a>
                     </div>
                 </div>
@@ -117,8 +129,8 @@
                 <a href="">
                     <span>我的购物袋</span>
                     <span>
-                        <em>12</em>:
-                        <em>03</em>
+                        <em class="minutes"></em>:
+                        <em class="seconds"></em>
                     </span>
                 </a>
             </div>
@@ -161,60 +173,7 @@
                         <div class="orders-bd">
                             <div class="m-table-box ">
                                 <div class="table-box-inner">
-                                    <table class="orders-table">
-                                        <tr>
-                                            <td class="product-item">
-                                                <div class="m-product">
-                                                    <div class="product-pic-trigger">
-                                                        <a href="">
-                                                            <img src="./images/shopping/01.jpg" alt="">
-                                                        </a>
-                                                        <div class="c-big-img">
-                                                            <img src="./images/shopping/01.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <h3 class="product-title">
-                                                        <span class="u-saletype ">自营</span>
-                                                        <a href="">【十大功能 触控大屏 破壁免滤】九阳豆浆机家用DJ12E-D61</a>
-                                                    </h3>
-                                                    <p class="product-size">尺码：均码</p>
-                                                    <div class="product-price-tip">
-                                                        <span class="product-tip">快抢价</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="price-item">
-                                                <div class="m-price">
-                                                    <span class="u-yen">￥</span>
-                                                    <strong class="u-price">260</strong>
-                                                </div>
-                                                <div class="m-price market-price">
-                                                    <span class="u-yen">￥</span>
-                                                    <span class="u-price">1099</span>
-                                                </div>
-                                            </td>
-                                            <td class="quantity-item">
-                                                <div class="m-amount">
-                                                    <a href="" class="amount-trigger">-</a>
-                                                    <div class="amount-num">
-                                                        <input type="text" name="" id="" value="1">
-                                                    </div>
-                                                    <a href="" class="amount-trigger amount-trigger-plus">+</a>
-                                                </div>
-                                            </td>
-                                            <td class="subtotal-item2">
-                                                <span class="m-price  subtotal-price">
-                                                    <span class="u-yen">￥</span>
-                                                    <strong class="u-price">260</strong>
-                                                </span>
-                                            </td>
-                                            <td class="actions-item2">
-                                                <div class="c-order-button-del">
-                                                    <a href="">删除</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                    <table class="orders-table"></table>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +199,7 @@
                                             <div class="spsl float_left">
                                                 共<span class="num-sph">1</span>件商品
                                             </div>
-                                            <div class="spje float_right">商品金额<span class="num-je">￥260</span></div>
+                                            <div class="spje float_right">商品金额<span class="num-je total-result">￥</span></div>
                                         </div>
                                         <div>
                                             <div class="spsl float_left">
@@ -260,9 +219,9 @@
                                 <div class="c-jsbtn">
                                     <span class="go-btn">
                                         立即结算
-                                        <span class="num-fz shuz-sj">18</span>
+                                        <span class="num-fz shuz-sj minutes">18</span>
                                         &nbsp;:&nbsp;
-                                        <span class="num-min shuz-sj">12</span>
+                                        <span class="num-min shuz-sj seconds">12</span>
                                     </span>
                                 </div>
                             </div>
@@ -283,24 +242,8 @@
             <div class="c-carousel">
                 <div class="c-container">
                     <div class="active-pannel">
-                        <!-- 1 -->
-                        <div class="c-goods">
-                            <div class="c-goods-img">
-                                <img src="./images/shopping/01.jpg" alt="">
-                            </div>
-                            <h3 class="c-goods-tit">
-                                <a href="">
-                                    【十大功能 触控大屏 破壁免滤】九阳豆浆机家用DJ12E-D61
-                                </a>
-                            </h3>
-                            <p>白色；均码</p>
-                            <span>
-                                <b>￥260</b>
-                                <em>重新购买</em>
-                            </span>
-                        </div>
-                         <!-- 1 -->
-                         <div class="c-goods">
+                        
+                         <!-- <div class="c-goods">
                             <div class="c-goods-img">
                                 <img src="./images/shopping/02.jpg" alt="">
                             </div>
@@ -317,7 +260,7 @@
                                 <b>￥1549</b>
                                 <em>重新购买</em>
                             </span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -382,3 +325,6 @@
 </body>
 
 </html>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/shoppcart.js"></script>

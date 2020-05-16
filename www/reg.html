@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./images/font_ion/iconfont.css">
     <link rel="stylesheet" href="./css/reg.css">
 </head>
+
 <body>
     <header>
         <div class="header-inner">
@@ -32,69 +33,47 @@
                         <h4>会员注册</h4>
                     </div>
                     <div class="reg_r float_right">
-                        <span>以注册可<a href="">直接登录</a></span>
+                        <span>以注册可<a href="./login.html">直接登录</a></span>
                     </div>
+                </div>
+                <div class="c-tab-nav ">
+                    <div class="c-tab-nav-item c-tab-nav-item-qr" id="in-user">账号注册</div>
+                    <div class="c-tab-nav-item" id="in-sws">短信注册</div>
                 </div>
                 <!-- 内容 -->
                 <div class="register_body">
+                    <!-- 短信 -->
+                    <div class="tab-s">
+                       
+                    </div>
                     <!-- 账号 -->
-                    <div class="control_group">
-                        <div class="form_item_group">
-                            <input type="text" placeholder="请输入手机号码">
-                            <span>×</span>
-                            <i class="gr_bj gr_sj_bj"></i>
-                            <div class="form_hint"></div>
-                        </div>
+                    <div class="tab-z">
+                     
                     </div>
-                    <!-- 验证码 -->
-                    <div class="control_group">
-                        <div class="form_item_group form_item_mobile">
-                            <div class="clear_fix">
-                                <input type="text" placeholder="请输入验证码">
-                                <a href="">获取验证码</a>
-                                <span>×</span>
-                                <i class="gr_bj gr_yzm_bj"></i>
-                            </div>
-                            <div class="form_hint"></div>
-                        </div>
-                    </div>
-                    <!-- 密码 -->
-                    <div class="control_group">
-                        <div class="form_item_group">
-                            <input type="text" placeholder="密码由6-20位字母，数字和符号组成">
-                            <span>×</span>
-                            <i class="gr_bj gr_mm_bj"></i>
-                            <div class="form_hint"></div>
-                        </div>
-                    </div>
-                    <!-- 确定密码 -->
-                    <div class="control_group">
-                        <div class="form_item_group">
-                            <input type="text" placeholder="再次输入上面的密码">
-                            <span>×</span>
-                            <i class="gr_bj gr_mm_bj"></i>
-                            <div class="form_hint"></div>
-                        </div>
-                    </div>
+
                     <!--  -->
                     <div class="ui_form_group">
                         <div class="ui_group">
                             <span>
-                                <input type="checkbox">
+                                <input type="checkbox" id="yedu" checked>
                                 <label for="">
                                     我已阅读并接受一下条款:
                                     <a href="">《唯品会服务条款》</a>
                                     <a href="">《隐私条款》</a>
                                     <a href="">《唯品支付用户服务协议》</a>
                                 </label>
+                                <p class="jstk"></p>
                             </span>
                         </div>
                     </div>
                     <!-- 提交 -->
                     <div class="control_group">
                         <div class="form_item_group form_btn">
-                            <a href="">立即注册</a>
+                            立即注册
                         </div>
+                    </div>
+                    <div id="mvy">
+                        
                     </div>
 
                 </div>
@@ -110,3 +89,5 @@
 </body>
 
 </html>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/reg.js"></script>

@@ -1,6 +1,6 @@
 
 let navStr = null
-
+let userName = getCookie("userName")
 $("#jzgd").click(function(){
     unfold()
 })

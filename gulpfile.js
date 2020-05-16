@@ -8,10 +8,10 @@ let connect = require("gulp-connect")
 g.task("watchadd",async()=>{
     g.watch("./www/*.html",async()=>{
         g.src("./www/*.html")
-        // .pipe(htmlmin({
-        //     collapseWhitespace: true,
-        //     removeComments: true,
-        // }))
+        .pipe(htmlmin({
+            collapseWhitespace: true,
+            removeComments: true,
+        }))
         .pipe(g.dest("d:\\phpStudy\\www\\wph"))
 
     })
@@ -31,8 +31,9 @@ g.task("watchadd",async()=>{
         g.src("./www/js/*.js")
         .pipe(babel({
             presets: ['@babel/env']
-        })).pipe(g.dest("d:\\phpStudy\\www\\wph\\js"))
-        // .pipe(uglify())
+        }))
+        .pipe(uglify())
+        .pipe(g.dest("d:\\phpStudy\\www\\wph\\js"))
         
     })
     g.watch("./www/php/**/*",async()=>{

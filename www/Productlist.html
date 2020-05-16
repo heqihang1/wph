@@ -27,11 +27,11 @@
                 </div>
                 <!-- 头部导航 -->
                 <ul class="float_right nav_right">
-                    <li>
-                        <a href="./login.html" class="clear_bg">请登录</a>
+                    <li id="login">
+                        <a href="./login.html" class="clear_bg" target="_blank">请登录</a>
                     </li>
-                    <li>
-                        <a href="./reg.html">注册</a>
+                    <li id="regs">
+                        <a href="./reg.html" target="_blank">注册</a>
                     </li>
                     <li>
                         <a href="">签到有礼</a>
@@ -112,9 +112,9 @@
                 <a href="./shoppCart.html">
                     <b></b>
                     <h6>购物袋</h6>
-                    <span>0</span>
-                </a>    
-               
+                    <span class="amount">0</span>
+                </a>
+
             </div>
 
         </div>
@@ -122,39 +122,864 @@
         <!-- 标题导航 -->
         <div class="header-inner" id="top_nav">
             <ul id="top_nav_ul">
-                <li class="classify">
-                    <a href="" class="h_icon_tit">
+                <li class="classify icadka">
+                    <a href="" class="h_icon_tit" id="hd">
                         <b class="iconfont icon-liebiao"></b>
                         商品分类
                     </a>
-                    <div class="kinds_box">
+                    <div class="kinds_box" id="task">
                         <ul class="kin_box_ul">
-                            <li>
+                            <li class="box_li">
                                 <a href="">女装/男装/内衣</a>
-                                <div class="kinds_content"></div>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">女靴/男鞋/箱包</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>人气美衣<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>人气美衣<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">护肤彩妆/个护</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                          
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                    
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                   >
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                     
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                            
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                     
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                             
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                   
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">户外运动</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                   
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                           
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                     
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                             
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                         
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+           
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                              
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">家电数码</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                   
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                              
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                          
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                           
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">母婴/童装</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                          
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+          
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                      
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                         
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                             
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                               
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                      
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">手表/配饰</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                               
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                            
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                              
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                   
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                             
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                               
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                       
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                      
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                         
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">居家用品</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                       
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                               
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                               
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                          
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                    
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                 
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                      
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">唯品生活</a>
                             </li>
                             <li>
@@ -167,40 +992,40 @@
                     </div>
                 </li>
                 <li>
-                    <a href="" class="home">首页</a>
+                    <a href="./index.html" class="home">首页</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">
+                    <a href="./activities.html" class="h_icon_tit">
                         <img src="./images/hot.gif" alt="">
                         <span>五一特卖</span>
                     </a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">最后疯抢</a>
+                    <a href="./Productlist.html" class="h_icon_tit">最后疯抢</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">唯品快抢</a>
+                    <a href="./Productlist.html" class="h_icon_tit">唯品快抢</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">女装</a>
+                    <a href="./Productlist.html" class="h_icon_tit">女装</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">母婴</a>
+                    <a href="./Productlist.html" class="h_icon_tit">母婴</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">家电</a>
+                    <a href="./Productlist.html" class="h_icon_tit">家电</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">国际</a>
+                    <a href="./Productlist.html" class="h_icon_tit">国际</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">美妆</a>
+                    <a href="./Productlist.html" class="h_icon_tit">美妆</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">鞋包</a>
+                    <a href="./Productlist.html" class="h_icon_tit">鞋包</a>
                 </li>
                 <li>
-                    <a href=" " class="h_icon_tit">男装</a>
+                    <a href="./Productlist.html " class="h_icon_tit">男装</a>
                 </li>
                 <li>
                     <a href="" class="h_icon_tit">
@@ -378,450 +1203,7 @@
     <!-- 商品列表 -->
     <div class="c-goods-list">
         <div class="c-goods-list-inner clear_fix" id="box">
-            
-            <!-- 1 -->
-           
-            <!-- 2 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_02.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
 
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 3 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_03.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="price goods-special-price">
-                            ￥1490
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 4 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_04.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="price goods-special-price">
-                            ￥6678
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 5 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_05.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 6 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_06.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="price goods-special-price">
-                            ￥1553
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 7 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_07.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 8 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_08.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 9 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_09.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_10.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 10 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_01.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_11.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 11 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_12.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 12 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_13.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <!-- 13 -->
-            <div class="goods-list-item">
-                <div class="goods-box-info">
-                    <div class="goods-box">
-                        <div class="box-show-info">
-                        </div>
-                        <div class="goods-img">
-                            <a href="">
-                                <img src="./images/product/goods_img_15.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="goods-tag">
-                            <img src="./images/product/goods_icon_01.png" alt="">
-                        </div>
-                        <div class="goods-corner-tag">
-
-                        </div>
-                        <div class="goods-special-price">
-                            <div class="goods-price  ">
-                                快抢价        <span>￥</span>
-                                <b>809</b>
-                            </div>
-                            <div class="goods-r">
-                                <span>￥1390</span>
-                                <b>5.8折</b>
-                            </div>
-                        </div>
-                        <h4 class="goods-tit-info">
-                            <a href="" class="">DW女表 32MM钢带石英手表腕表街拍通勤时尚百搭 母亲节礼物</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            
-           
 
         </div>
     </div>
@@ -834,6 +1216,20 @@
     </div>
 
     <!-- 右侧固定栏 -->
+       <!-- 右侧固定栏 -->
+    <!-- 购物袋 -->
+    <div id="gooldslistn">
+        <div class="guanbi">
+            ×
+        </div>
+        <div class="qwgwc">
+            <a href="./shoppCart.html">前往购物车&gt;</a>
+        </div>
+        <div class="contentgood">
+
+        </div>
+       
+    </div>  
     <div class="right-nav">
         <div class="right-nav-cont">
             <!-- 用户 -->
@@ -845,37 +1241,39 @@
             <div class="shoppimg-bage">
                 <i class="iconfont icon-gouwudai"></i>
                 <p>购物袋</p>
-                <i class="quantity">0</i>
+                <i class="quantity amount">0</i>
+                <div class="l-imgtion">
+
+                </div>
             </div>
             <!-- 个人资产 -->
             <ul class="J_asset">
                 <li>
-                    <a href="" class="icon-wodeyouhuijuan iconfont"></a>
+                    <b class="icon-wodeyouhuijuan iconfont"></b>
                 </li>
                 <li>
-                    <a href="" class="icon-03 iconfont"></a>
+                    <b class="icon-03 iconfont"></b>
                 </li>
                 <li>
-                    <a href="" class="icon-xingxing1 iconfont"></a>
+                    <b class="icon-xingxing1 iconfont"></b>
                 </li>
                 <li>
-                    <a href="" class="icon-lishijilu_huaban iconfont"></a>
+                    <b class="icon-lishijilu_huaban iconfont"></b>
                 </li>
             </ul>
-                <ul class="fot-icon">
-                    <!-- 反馈 -->
-                    <li>
-                        <a href="" class="icon-fankui iconfont"></a>
-                    </li>
-                    <!-- 返回顶部 -->
-                    <li>
-                        <a href="" class="icon-fanhuidingbu- iconfont"></a>
-                    </li>
-               </lu>
+            <ul class="fot-icon">
+                <!-- 反馈 -->
+                <li>
+                    <b class="icon-fankui iconfont"></b>
+                </li>
+                <!-- 返回顶部 -->
+                <li id="topgo">
+                    <b class="icon-fanhuidingbu- iconfont" ></b>
+                </li>
+                </lu>
 
         </div>
     </div>
-
     <!-- 底部 -->
     <footer>
         <div class="footer-inner">
@@ -1050,4 +1448,6 @@
 
 </html>
 <script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/conmon.js"></script>
 <script src="./js/goodslist.js"></script>

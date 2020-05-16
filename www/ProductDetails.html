@@ -28,11 +28,11 @@
                 </div>
                 <!-- 头部导航 -->
                 <ul class="float_right nav_right">
-                    <li>
-                        <a href="./login.html" class="clear_bg">请登录</a>
+                    <li id="login">
+                        <a href="./login.html" class="clear_bg" target="_blank">请登录</a>
                     </li>
-                    <li>
-                        <a href="./reg.html">注册</a>
+                    <li id="regs">
+                        <a href="./reg.html" target="_blank">注册</a>
                     </li>
                     <li>
                         <a href="">签到有礼</a>
@@ -113,7 +113,7 @@
                 <a href="./shoppCart.html">
                     <b></b>
                     <h6>购物袋</h6>
-                    <span>0</span>
+                    <span class="amount">0</span>
                 </a>
 
             </div>
@@ -123,39 +123,864 @@
         <!-- 标题导航 -->
         <div class="header-inner" id="top_nav">
             <ul id="top_nav_ul">
-                <li class="classify">
-                    <a href="" class="h_icon_tit">
+                <li class="classify icadka">
+                    <a href="" class="h_icon_tit" id="hd">
                         <b class="iconfont icon-liebiao"></b>
                         商品分类
                     </a>
-                    <div class="kinds_box">
+                    <div class="kinds_box" id="task">
                         <ul class="kin_box_ul">
-                            <li>
+                            <li class="box_li">
                                 <a href="">女装/男装/内衣</a>
-                                <div class="kinds_content"></div>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>冬季热卖<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">女靴/男鞋/箱包</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>女鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                            <dd>短鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>人气美衣<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>人气美衣<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                            <dd>大衣</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">护肤彩妆/个护</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            >
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>面部保养<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+
+                                            <dd>眼部护理</dd>
+                                            <dd>眼部护理</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">户外运动</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>运动鞋<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+
+                                            <dd>羽毛球鞋</dd>
+                                            <dd>羽毛球鞋</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">家电数码</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>热销手机<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                            <dd>华为</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">母婴/童装</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>童装<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+                                            <dd>儿童裤装</dd>
+
+                                            <dd>儿童裤装</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">手表/配饰</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">居家用品</a>
+                                <div class="kinds_content">
+                                    <div class="lei-l">
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                        <dl class="lei_nav">
+                                            <dt>黄金砖石<i class="iconfont icon-xiangyou"></i></dt>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+                                            <dd>黄金项链</dd>
+
+                                        </dl>
+                                    </div>
+                                    <div class="lei_r">
+                                        <h5>品牌推荐</h5>
+                                        <div class="pptj">
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                            <div><img src="./images/pp_03.png" alt=""></div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="box_li">
                                 <a href="">唯品生活</a>
                             </li>
                             <li>
@@ -168,40 +993,40 @@
                     </div>
                 </li>
                 <li>
-                    <a href="" class="home">首页</a>
+                    <a href="./index.html" class="home">首页</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">
+                    <a href="./activities.html" class="h_icon_tit">
                         <img src="./images/hot.gif" alt="">
                         <span>五一特卖</span>
                     </a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">最后疯抢</a>
+                    <a href="./Productlist.html" class="h_icon_tit">最后疯抢</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">唯品快抢</a>
+                    <a href="./Productlist.html" class="h_icon_tit">唯品快抢</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">女装</a>
+                    <a href="./Productlist.html" class="h_icon_tit">女装</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">母婴</a>
+                    <a href="./Productlist.html" class="h_icon_tit">母婴</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">家电</a>
+                    <a href="./Productlist.html" class="h_icon_tit">家电</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">国际</a>
+                    <a href="./Productlist.html" class="h_icon_tit">国际</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">美妆</a>
+                    <a href="./Productlist.html" class="h_icon_tit">美妆</a>
                 </li>
                 <li>
-                    <a href="" class="h_icon_tit">鞋包</a>
+                    <a href="./Productlist.html" class="h_icon_tit">鞋包</a>
                 </li>
                 <li>
-                    <a href=" " class="h_icon_tit">男装</a>
+                    <a href="./Productlist.html " class="h_icon_tit">男装</a>
                 </li>
                 <li>
                     <a href="" class="h_icon_tit">
@@ -222,18 +1047,17 @@
                 <div class="J-img">
                     <div class="slide-mid">
                         <div class="zoomPad" id="h-img-box">
-                           
                         </div>
-                        <!-- <div class="big-glass"></div> -->
-                        <!-- <div class="big-img">
-                            <img src="./images/details/sc01.jpg" alt="">
-                        </div> -->
+                        <div class="big-glass"></div>
+                        <div class="big-img" id="boximg">
+
+                        </div>
 
                         <div class="pic-slider">
                             <!-- 产品图片模块 end -->
                             <div>
                                 <ul id="m-box">
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -278,11 +1102,11 @@
                     <!--标题 -->
                     <div class="tit-box">
                         <div class="flag-box" id="i-flag-box">
-                            
+
                         </div>
                         <!--  -->
                         <div class="pib-title clear_fix" id="i-pib-title">
-                           
+
                         </div>
                     </div>
                     <!-- 折扣价格 -->
@@ -290,7 +1114,7 @@
                         <div class="J-specialPrice clear_fix">
                             <div class="specialPrice-box">
                                 <div class="sp-info" id="i-sp-info">
-                                    
+
                                 </div>
                             </div>
                             <!-- 价格组成 -->
@@ -307,82 +1131,82 @@
                     <div class="p-pi-box">
                         <!-- 配送地址 -->
                         <form action="">
-                            <dl class="g-address clear_fix">
+                            <dl class="g-address clear_fix ">
                                 <dt class="address-name float_left">配送</dt>
-                                <dd class="c-address float_left">
+                                <dd class="c-address float_left address-gg">
                                     <div>
-                                        <p>请选择省市区</p>
+                                        <p id="dqlr">请选择省市区</p>
                                         <i class="iconfont icon-xiangxia"></i>
                                     </div>
                                 </dd>
                                 <!-- 省份 -->
-                                <div class="address-main">
+                                <div class="address-main" id="s-province">
                                     <div class="address-inner-box">
                                         <span class="addres-close">×</span>
                                         <ul class="address-list">
                                             <li>省份</li>
                                         </ul>
                                         <div class="delivery-address-content">
-                                            <ul class="J_province_container">
+                                            <ul class="J_province_container" id="sf">
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">内蒙古自治区</a>
+                                                    内蒙古自治区
                                                 </li>
                                                 <li>
-                                                    <a href="">辽宁省</a>
+                                                    辽宁省
                                                 </li>
                                                 <li>
-                                                    <a href="">黑龙江省</a>
+                                                    黑龙江省
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">内蒙古自治区</a>
+                                                    内蒙古自治区
                                                 </li>
                                                 <li>
-                                                    <a href="">辽宁省</a>
+                                                    辽宁省
                                                 </li>
                                                 <li>
-                                                    <a href="">黑龙江省</a>
+                                                    黑龙江省
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
                                                 <li>
-                                                    <a href="">北京市</a>
+                                                    北京市
                                                 </li>
 
                                             </ul>
@@ -400,18 +1224,18 @@
                             </dl>
                             <!-- 类型 -->
                             <dl class="g-address clear_fix" id="leix">
-                                
+
                             </dl>
                             <!-- 规格 -->
                             <dl class="g-address clear_fix">
-                                <dt class="address-name float_left">规格</dt>
+                                <dt class="address-name float_left ">规格</dt>
 
                                 <dd class="c-address float_left">
                                     <ul>
                                         <li class="color-list-item">
                                             <a href="" class="hig-tit-pic" id="guige">
 
-                                                
+
                                             </a>
                                         </li>
                                     </ul>
@@ -419,12 +1243,12 @@
                             </dl>
                             <!-- 数量 -->
                             <dl class="g-address clear_fix">
-                                <dt class="address-name float_left">规格</dt>
+                                <dt class="address-name float_left">数量</dt>
 
                                 <dd class=" float_left">
                                     <div class="num-box">
                                         <div class="j-disabled">-</div>
-                                        <input type="text" value="1">
+                                        <input type="text" value="1" id="goods-num">
                                         <div class="j-add">+</div>
                                     </div>
 
@@ -432,11 +1256,13 @@
                             </dl>
                             <!-- 加入购物袋 -->
                             <div class="ci-button">
-                                <div class="J-button-box">
+                                <div class="J-button-box" id="btnAddShoppingCar">
                                     <input type="button" class="ui-btn-large">
-                                    <div class="toumin"></div>
-                                    <span>
+                                    <div class="toumin" id="g-imgtion">
 
+                                    </div>
+
+                                    <span>
                                         <i class="iconfont icon-gouwudai"></i>
                                         加入购物袋
                                     </span>
@@ -482,7 +1308,8 @@
                     </div>
                     <div class="re-store">
                         <div class="re-tit">DANIEL WELLINGTON</div>
-                        <div class="re-cont">2011年，来自瑞典的轻奢腕表品牌Daniel Wellington，以经典永恒为设计理念，简约的北欧风表盘，配以别致的无秒针设计，引领腕表搭配新潮流，让你感受时光的魅力。</div>
+                        <div class="re-cont">2011年，来自瑞典的轻奢腕表品牌Daniel
+                            Wellington，以经典永恒为设计理念，简约的北欧风表盘，配以别致的无秒针设计，引领腕表搭配新潮流，让你感受时光的魅力。</div>
                     </div>
                     <div class="brand_detail_click">
                         查看品牌
@@ -616,8 +1443,8 @@
                     <span>¥809</span>
                 </div>
             </div>
-             <!-- 展示 -->
-             <div class="adcode-end clear_fix">
+            <!-- 展示 -->
+            <div class="adcode-end clear_fix">
                 <div class="tit-new">
                     <i></i>
                     <p class="dc-title">
@@ -650,6 +1477,19 @@
 
 
     <!-- 右侧固定栏 -->
+    <!-- 购物袋 -->
+    <div id="gooldslistn">
+        <div class="guanbi">
+            ×
+        </div>
+        <div class="qwgwc">
+            <a href="./shoppCart.html">前往购物车&gt;</a>
+        </div>
+        <div class="contentgood">
+
+        </div>
+
+    </div>
     <div class="right-nav">
         <div class="right-nav-cont">
             <!-- 用户 -->
@@ -661,31 +1501,34 @@
             <div class="shoppimg-bage">
                 <i class="iconfont icon-gouwudai"></i>
                 <p>购物袋</p>
-                <i class="quantity">0</i>
+                <i class="quantity amount">0</i>
+                <div class="l-imgtion">
+
+                </div>
             </div>
             <!-- 个人资产 -->
             <ul class="J_asset">
                 <li>
-                    <a href="" class="icon-wodeyouhuijuan iconfont"></a>
+                    <b class="icon-wodeyouhuijuan iconfont"></b>
                 </li>
                 <li>
-                    <a href="" class="icon-03 iconfont"></a>
+                    <b class="icon-03 iconfont"></b>
                 </li>
                 <li>
-                    <a href="" class="icon-xingxing1 iconfont"></a>
+                    <b class="icon-xingxing1 iconfont"></b>
                 </li>
                 <li>
-                    <a href="" class="icon-lishijilu_huaban iconfont"></a>
+                    <b class="icon-lishijilu_huaban iconfont"></b>
                 </li>
             </ul>
             <ul class="fot-icon">
                 <!-- 反馈 -->
                 <li>
-                    <a href="" class="icon-fankui iconfont"></a>
+                    <b class="icon-fankui iconfont"></b>
                 </li>
                 <!-- 返回顶部 -->
-                <li>
-                    <a href="" class="icon-fanhuidingbu- iconfont"></a>
+                <li id="topgo">
+                    <b class="icon-fanhuidingbu- iconfont"></b>
                 </li>
                 </lu>
 
@@ -866,4 +1709,6 @@
 
 </html>
 <script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/conmon.js"></script>
 <script src="./js/ProductDetails.js"></script>
